@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+/* HEADER AND NAVIGATION STYLES START */
+
+header{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+#icon-name{
+    display: flex;
+}
+
+header div img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+header div h1{
+    margin-top: 5px;
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+/* HERO STYLES */
+
+.hero{
+    background-image: url('../images/hero-img.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.intro-title{
+    margin: 100px;
+    position: static;
+}
+.hero h2{
+    text-align: right;
+    position: sticky;
+}   
+#creative-developer{
+    display: block;
+}
+
+/* HERO ENDS */
+
+/* MAIN CONTENT */
+
+main{
+    margin: 50px 0px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#bold-content-intro{
+    font-size: large;
+    font-weight: bold;
+}
+
+#small-text{
+    width: 350px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.main-info{
+    width: 350px;
+}
+.extra-info{
+    width: 350px;
+}
