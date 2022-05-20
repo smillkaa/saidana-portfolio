@@ -60,7 +60,7 @@ header nav ul li a:hover{
     background-image: url('../images/hero-img.png');
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 650px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -70,13 +70,18 @@ header nav ul li a:hover{
 }
 
 .intro-title{
-    margin: 100px;
-    position: static;
+    margin: 150px 20px 200px 300px;
+    top: 100px;
+    position: sticky;
+    text-align: right;
 }
 .hero h2{
-    text-align: right;
-    position: sticky;
-}   
+
+}  
+
+.hero p{
+    font-size: 0.8rem;
+}
 #creative-developer{
     display: block;
 }
@@ -111,6 +116,57 @@ main{
 }
 
 /* MAIN CONTENT ENDS */
+
+/* WORK SECTION */
+#work{
+    background-color: lightgray;
+    padding-bottom: 200px;
+}
+.portfolio-apps{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#work h2{
+    margin-bottom: 70px;
+    font-size: 15rem;
+}
+
+.first-app img{
+    position: relative;
+    width: 600px;
+    margin: 20px 0px;
+}
+.first-app img:hover, .second-app img:hover, .third-app img:hover{
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 60px white;
+    transform: scale(0.99);
+}
+
+.second-app img{
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.third-app img{
+    height: 150px;
+    width: 300px;
+    margin: 20px 20px 0px 20px;
+}
+
+.second-app h3, .third-app h3{
+    padding-left: 20px;
+    font-size: 0.8rem;
+}
+
+.third-app{
+    padding-top: 26px;
+}
+
+/* WORK SECTION ENDS */
 
 /* FOOTER */
 footer{
