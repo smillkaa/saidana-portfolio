@@ -18,7 +18,7 @@ header{
     top: 0;
 }
 
-#icon-name{
+.icon-name{
     display: flex;
 }
 
@@ -108,4 +108,46 @@ main{
 }
 .extra-info{
     width: 350px;
+}
+
+/* MAIN CONTENT ENDS */
+
+/* FOOTER */
+footer{
+    background-color: #12234a;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+footer h2{
+    margin-top: 10px;
+}
+
+footer nav{
+    margin: 7px 0;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer nav ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+footer nav ul li a:hover{
+    color: black;
 }
