@@ -9,6 +9,7 @@ html {
 body{
     font-family: 'Ubuntu', sans-serif;
     color: white;
+    background-color: #151515;
 }
 
 /* HEADER AND NAVIGATION STYLES START */
@@ -16,6 +17,7 @@ body{
 header{
     padding: 20px 35px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     top: 0;
     background-color: black;
@@ -23,6 +25,7 @@ header{
 
 .icon-name{
     display: flex;
+    flex-wrap: wrap;
 }
 
 header div img{
@@ -41,6 +44,7 @@ header nav{
 
 header nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -76,7 +80,6 @@ header nav ul li a:hover{
 .intro-title{
     margin: 150px 20px 200px 300px;
     top: 100px;
-    position: sticky;
     text-align: right;
 } 
 
@@ -119,24 +122,29 @@ main{
 /* WORK SECTION */
 #work{
     background-color: lightgray;
-    padding-bottom: 200px;
+}
+
+.work-intro{
+    padding: 100px;
 }
 .portfolio-apps{
-    padding-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 #work h2{
-    letter-spacing: 2rem;
     font-size: 3rem;
     text-align: center;
-    text-decoration:underline;
     opacity: 0.4;
 }
 
+#work p{
+    text-align: center;
+}
+
 .first-app img{
-    position: relative;
     width: 600px;
     margin: 20px 0px;
     transition: 0.2s;
@@ -182,15 +190,10 @@ main{
 }
 
 #about h2{
-    font-size: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20vw;
     color: black;
-}
-
-#intro-p{
-    font-size: 3rem;
-    width: 1000px;
-    margin-left: 50px;
-
 }
 
 .content{
@@ -200,10 +203,12 @@ main{
 }
 
 #about article{
-    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
     text-align: justify;
     font-size: 1.1rem;
-    margin: 40px;
+    margin: 40px 20px 40px 40px;
 }
 
 article p{
@@ -236,14 +241,30 @@ article p{
 }
 
 #contact h2{
-    font-size: 15rem;
+    font-size: 20vw;
     color: rgb(30, 30, 30);
+}
+
+#contact p, #intro-p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.8vw;
+    margin-left: 50px;
 }
 #contact img{
     width: 100px;
     height: auto;
-    display: flex;
-    align-items: flex-end;
+    position: relative;
+    margin: 100px 100px 100px 700px;
+    transition: 0.2s;
+}
+
+#contact img:hover{
+    outline: none;
+    border-radius:  20px;
+    border-color: red;
+    box-shadow: 0 0 60px red;
+    transform: scale(0.99);
 }
 
 /* CONTACT SECTION ENDS */
@@ -263,12 +284,14 @@ footer img{
     height: 50px;
     margin-right: 20px;
 }
+
 footer h2{
     margin-top: 17px;
 }
 
 footer nav{
     display: flex;
+    flex-wrap: wrap;
     margin: 7px 40px;
 }
 
@@ -280,6 +303,7 @@ footer nav::before{
 
 footer nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -296,3 +320,69 @@ footer nav ul li a {
 footer nav ul li a:hover{
     color: rgb(255, 255, 255);
 }
+
+
+@media screen and (max-width: 980px) {
+    .hero{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+
+    main{
+        margin-top: 100px;
+        height: 400px;
+
+    }
+
+    .first-app img {
+        max-width: 100%;
+    }
+
+    #contact img{
+        position: relative;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact img{
+        position: relative;
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .hero{
+        height: 500px;
+        background-size: 40rem;
+        background-position-x: left;
+    }
+
+    .hero h2, .hero p{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    #contact{
+        height: 100px;
+    }
+    #contact img{
+        padding: 60px 60px 60px 120px;
+        margin: 0px;
+    }
+    .intro-title{
+        margin: 150px 20px 200px 50px;
+    }
+
+    footer{
+    padding: 0;
+    margin: 0;
+    }
+    footer img{
+    height: 7vw;
+    width: 7vw;
+    }
+}
+
