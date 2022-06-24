@@ -61,9 +61,9 @@ header nav ul li a {
 header nav ul li a:hover{
     opacity: 0.1;
 }
+/* HEADER AND NAVIGATION STYLES END */
 
-/* HERO STYLES */
-
+/* HERO STYLES START */
 .hero{
     background-image: url('../images/hero-img.png');
     background-size: cover;
@@ -89,11 +89,9 @@ header nav ul li a:hover{
 #creative-developer{
     display: block;
 }
+/* HERO STYLES END */
 
-/* HERO ENDS */
-
-/* MAIN CONTENT */
-
+/* MAIN CONTENT STYLES START */
 main{
     padding: 50px 0px;
     height: 500px;
@@ -116,10 +114,9 @@ main{
 .main-info, .extra-info{
     width: 350px;
 }
+/* MAIN CONTENT STYLES END */
 
-/* MAIN CONTENT ENDS */
-
-/* WORK SECTION */
+/* WORK SECTION STYLES START */
 #work{
     background-color: lightgray;
 }
@@ -178,10 +175,9 @@ main{
 .third-app{
     padding-top: 26px;
 }
+/* WORK SECTION STYLES END */
 
-/* WORK SECTION ENDS */
-
-/* ABOUT SECTION */
+/* ABOUT SECTION STYLES START */
 #about{
     display: flex;
     flex-wrap: wrap;
@@ -230,11 +226,9 @@ article p{
     margin: 20px 0px;
     font-style: italic;
 }
+/* ABOUT SECTION STYLES END */
 
-
-/* ABOUT SECTION ENDS */
-
-/* CONTACT SECTION */
+/* CONTACT SECTION STYLES START */
 #contact{
     background-color: black;
     padding: 0px 20px 200px 20px;
@@ -266,9 +260,9 @@ article p{
     box-shadow: 0 0 60px red;
     transform: scale(0.99);
 }
+/* CONTACT SECTION STYLES ENDS */
 
-/* CONTACT SECTION ENDS */
-/* FOOTER */
+/* FOOTER STYLES START */
 footer{
     background-color: #151515;
     color: black;
@@ -320,7 +314,7 @@ footer nav ul li a {
 footer nav ul li a:hover{
     color: rgb(255, 255, 255);
 }
-
+/* FOOTER STYLES END */
 
 @media screen and (max-width: 980px) {
     .hero{
