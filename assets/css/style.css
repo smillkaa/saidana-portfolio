@@ -389,6 +389,13 @@ footer nav ul li a:hover{
     }
 }
 
+@media screen and (max-width: 768px) {
+    #contact img{
+        position: relative;
+        margin-left: 300px;
+    }
+}
+
 @media screen and (max-width: 575px) {
 
     .hero{
@@ -456,3 +463,4 @@ footer nav ul li a:hover{
     justify-content: center;
     margin: 20px;
 }
+
