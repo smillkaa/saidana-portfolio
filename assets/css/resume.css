@@ -1,0 +1,35 @@
+h1 {
+    letter-spacing: 2px;
+    font-size: 5rem;
+}
+
+.resume {
+    border: solid 2px rgb(24, 28, 60);
+}
+
+.resume a {
+    color: rgb(255, 255, 255);
+}
+
+.border-top-bl {
+    border-top: solid 2px rgb(24, 28, 60);
+}
+
+.border-right-bl {
+    border-right: solid 2px rgb(24, 28, 60);
+}
+
+.request-demo {
+    border: none;
+}
+
+.request-demo:hover {
+    border-radius: 0px;
+    border: 1px solid rgb(24, 28, 60);
+}
+
+@media screen and (min-width: 800px) {
+    .resume {
+        margin: 0 17vw;
+    }
+}

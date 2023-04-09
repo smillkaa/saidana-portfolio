@@ -1,0 +1,89 @@
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.trigger-menu-wrapper {
+    background-color: #080808;
+}
+
+.trigger-menu {
+    border: solid rgb(255, 255, 255) 2px;
+}
+  
+.page-header .trigger-menu {
+    color: rgb(255, 255, 255);
+}
+  
+.page-header .trigger-menu svg {
+    fill: rgb(255, 255, 255);
+}
+
+main {
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+h1, h2 {
+    font-size: 1rem;
+    font-family: "D-DIN Exp Bold";
+    letter-spacing: 2px;
+}
+
+.description {
+    font-size: 1.5rem;
+    animation: fadeIn 2s
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.services a, .industries a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+.services a img, .industries a img {
+    filter: invert(50%);
+    transform: rotate(-35deg);
+}
+
+.services a, .industries a {
+    min-width: 100%;
+    border-bottom: 1px rgb(43, 43, 43) solid;
+}
+
+.services a h3, .industries a h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.number {
+    font-size: 1rem;
+    color: grey;
+    position: relative;
+    transition: 0.5;
+}
+
+.number:hover {
+    transform: perspective(1px) translateZ(0);
+}
+
+@media screen and (min-width: 768px) {
+    .services a h3, .industries a h3 {
+        font-size: 2rem;
+    }
+
+    .services, .industries {
+        border-top: 1px rgb(46, 46, 46) solid;
+    }
+    
+}
