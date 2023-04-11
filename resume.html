@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="assets/css/resume.css">
 </head>
 <body>
-    <header class="sticky-top">
+    <header>
         <div class="container d-flex align-items-start ps-0 p-4 pb-2">
             <div class="me-auto p-4 d-flex justify-content-center align-items-center"></div>
             <div class="">
                 <div class="nav d-flex align-items-end p-4">
                     <!-- <a class="me-3 green" href="about.html">Company</a> -->
-                    <a class="me-3 green" href="index.html">Home</a>
-                    <a class="me-3 purple" href="about.html">Projects</a>
-                    <a class="me-3 blue" href="#contact">Contact</a>
+                    <!-- <a class="me-3 green" href="index.html">Home</a> -->
+                    <a class="me-3 purple" href="#projects">Projects</a>
+                    <a class="blue" href="#contact">Contact</a>
                 </div>
                 <!-- <div class="mt-5 button" role="button">
                     <a class="next text-end p-4 request-demo" href="request-demo.html">Request Quote</a>
@@ -28,20 +28,23 @@
         </div>
     </header>
 
-    <section>
+    <section class="title">
         <div class="container">
             <h1>Resume</h1>
+            <a href="assets/PDF/saidana narmontaite resume.pdf" download>Click to download PDF</a>
         </div>
     </section>
 
     <main>
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+
             <div class="resume">
                 <div class="text-center p-4">
                     <h2>Web Developer & Digital Designer</h2>
                     <h2>Saidana Narmontaite</h2>
+                    <p>Los Angeles, CA<span class="blue-text me-3 ms-3">|</span>(708) 966 - 7954</p>
                 </div>
-                <div class="d-flex border-top-bl">
+                <div class="d-flex flex-column-reverse flex-md-row border-top-bl">
                     <div class="col-12 col-md-4 me-auto border-right-bl p-4 d-flex flex-column">
                         <h3>Github:</h3>
                         <a class="btn request-demo p-3 mt-4" role="button" href="https://github.com/saidananarmo" target="_blank">Current work</a>
@@ -58,6 +61,326 @@
             </div>
         </div>
     </main>
+
+    <section>
+        <div class="container ps-4 pe-4">
+            <div class="container-inside">
+            <div class="skills row justify-content-between">
+                <div class="col-6 col-md-4 p-4 pt-0 pe-0 d-flex justify-content-end border-right-bl pe-4">
+                    <h3 class="">Languages:</h3>
+                </div>
+                <div class="col-6 col-md-5 p-4 pt-0 ps-4 ps-md-0">
+                    <ul class="list-unstyled">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between border-top-bl">
+                <div class="col-6 col-md-4 p-4 pe-0 d-flex justify-content-end border-right-bl pe-4">
+                    <h3 class="">Technologies:</h3>
+                </div>
+                <div class="col-6 col-md-5 p-4 ps-4 ps-md-0">
+                    <ul class="list-unstyled">
+                        <li>Codeigniter</li>
+                        <li>jQuery</li>
+                        <li>Boostrap</li>
+                        <li>GIT</li>
+                        <li>Express.js</li>
+                        <li>Node.js</li>
+                        <li>Sequelize</li>
+                        <li>MySQL</li>
+                        <li>Web APIs</li>
+                        <li>AJAX Requests</li>
+                        <li>Adobe Suite (Photoshop, Lightroom, Illustrator, Premiere Pro, After Effects)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between border-top-bl">
+                <div class="col-6 col-md-4 p-4 pe-0 d-flex justify-content-end border-right-bl pe-4">
+                    <h3 class="d-none d-md-block text-end">Workflow/Architecture:</h3>
+                    <h3 class="d-block d-md-none text-end">Workflow & Architecture:</h3>
+                </div>
+                <div class="col-6 col-md-5 p-4 ps-4 ps-md-0">
+                    <ul class="list-unstyled">
+                        <li>OOP</li>
+                        <li>REST</li>
+                        <li>MVC</li>
+                        <li>Heroku deployment</li>
+                        <li>Netlify deployment</li>
+                        <li>GitHub pages deployment</li>
+                        <li>Mobile-first design approach</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects d-flex align-items-center justify-content-center">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <h2 class="text-center">Projects</h2>
+            <div class="d-flex mt-5">
+                <a href="#backend" class="me-3">Back-end</a>
+                <a href="#frontend">Front-end</a>
+            </div>
+            
+        </div>
+    </section>
+    <span class="m-0 anchor" id="backend"></span>
+    <section class="projects-list">
+        <div class="container ps-4 pe-4">
+            <div class="row">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">README Generator</h3>
+                    <p class="text-grey">Back-end project</p>
+                    <a class="btn request-demo p-3 mt-4" role="button" href="https://github.com/smillkaa/readme-generator" target="_blank">Link to GitHub</a>
+                        <a class="btn request-demo p-3 mt-4" role="button" href="https://vimeo.com/manage/videos/732857633" target="_blank">Walkthrough Video</a>
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">README Generator</h3>
+                    <ul>
+                        <li>A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package from Node.js</li>
+                        <li>Responsible for the entire project</li>
+                        <li>JavaScript, <span class="fw-bolder">Node.js</span>, Inquirer package</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top-bl">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">Employee Tracker</h3>
+                    <p class="text-grey">Back-end project</p>
+                    <a class="btn request-demo p-3 mt-4" role="button" href="https://github.com/smillkaa/employee-tracker/" target="_blank">Link to GitHub</a>
+                        <a class="btn request-demo p-3 mt-4" role="button" href="https://vimeo.com/742091506" target="_blank">Walkthrough Video</a>
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">Employee Tracker</h3>
+                    <ul>
+                        <li>A command-line application for managing a company's employee database in MySQL. The application allows a user to view, add, and edit departments, roles and employees</li>
+                        <li>Responsible for the entire project</li>
+                        <li> <span class="fw-bolder">Node.js</span>, Inquirer package, <span class="fw-bolder">MySQL</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top-bl mb-5">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">Note Taker</h3>
+                    <p class="text-grey">Back-end project</p>
+                    <a class="btn request-demo p-3 mt-4" role="button" href="https://github.com/smillkaa/note-taker/" target="_blank">Link to GitHub</a>
+                        
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">Note Taker</h3>
+                    <ul>
+                        <li>An application that can be used to write, save, and delete notes. Uses an Express.js back end and saves and retrieves note data from a JSON file.</li>
+                        <li>Responsible for the back-end http request functionality</li>
+                        <li> <span class="fw-bolder">Node.js</span>, <span class="fw-bolder">Express.js</span>, JSON data retrieval and writing, file system module</li>
+                    </ul>
+                </div>
+            </div>
+            <span class="m-0 anchor" id="frontend"></span>
+            <div class="row border-top-bl pt-5">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">Reach X Website Re-design</h3>
+                    <p class="text-grey">Front-end project</p>
+                    <a class="btn request-demo p-3 mt-4" role="button" href="https://github.com/smillkaa/reach-x" target="_blank">Link to GitHub</a>
+                        <a class="btn request-demo p-3 mt-4" role="button" href="https://smillkaa.github.io/reach-x/" target="_blank">Link to Website</a>
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">Reach X Website Re-design</h3>
+                    <ul>
+                        <li>A full website and logo re-design for Reach X marketing company</li>
+                        <li>Responsible for the front-end design</li>
+                        <li>Used Bootstrap, <span class="fw-bolder">JavaScript AOS Library</span>, CSS, Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top-bl">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">Popular Marketing Re-design</h3>
+                    <p class="text-grey">Front-end project</p>
+                    <a class="btn request-demo p-3 mt-4" role="button" href="https://staging.popularmarketing.com/" target="_blank">Link to Website</a>
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">Popular Marketing Re-design</h3>
+                    <ul>
+                        <li>A full website and logo re-design for Popular Marketing company</li>
+                        <li>Responsible for the front-end design</li>
+                        <li>Used Bootstrap, <span class="fw-bolder">JavaScript AOS Library</span>, CSS, Photoshop, CapCut</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top-bl">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <h3 class="d-block d-md-none fs-4">Lead Sales Hub</h3>
+                    <p class="text-grey">Front-end project</p>
+                        <a class="btn request-demo p-3 mt-4" role="button" href="https://smillkaa.github.io/leadsaleshub/" target="_blank">Link to Website</a>
+                </div>
+                <div class="col-12 col-md-9 p-4">
+                    <h3 class="d-none d-md-block">Lead Sales Hub</h3>
+                    <ul>
+                        <li>A full website and logo design for Lead Sales Hub</li>
+                        <li>Responsible for the front-end design</li>
+                        <li>Used Bootstrap, <span class="fw-bolder">JavaScript AOS Library</span>, CSS, Photoshop, CapCut</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top-bl">
+                <div class="col-12 col-md-3 d-flex flex-column border-right-bl p-4">
+                    <p>Others</p>
+                </div>
+                <div class="col-12 col-md-9 p-4 d-flex flex-column">
+                    <a href="https://www.sellestiall.com" style="color: white;" target="_blank">sellestiall.com</a>
+                    <a href="https://www.foodstampguru.com" style="color: white;" target="_blank">foodstampguru.com</a>
+                    <a href="https://www.lead-firewall.com" style="color: white;" target="_blank">leadfire-wall.com</a>
+                    <p class="mt-4 mb-0">and more.</p>
+                    <a href="#backend" style="color: white;">Click for back-end projects</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-experience" id="work-experience">
+        <div class="container ps-4 pe-4">
+            <h2>Work Experience</h2>
+            <div class="border-top-bl mt-5"></div>
+            <div class="container-inside">
+                <div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 border-right-bl p-4 pt-5">
+                            <h3 class="fw-bolder">Web Designer & Developer</h3>
+                            <p>Popular Marketing | 9/2022 - now</p>
+                        </div>
+                        <div class="col-12 col-md-8 p-4 pt-5">
+                            <h4 class="mb-4">Responsibilities</h4>
+                            <ul>
+                                <li>Driving business conversion through rapid UI/UX enhancements and A/B testing.</li>
+                                <li>Designing high quality and responsive lead generation websites using the mobile-first approach.</li>
+                                <li>Creating best-in-class user experiences.</li>
+                                <li>Working with other designers to QA work.</li>
+                                <li>Developing website specifications and wireframes.</li>
+                                <li>Designing page layouts.</li>
+                                <li>Presenting design ideas to project leaders.</li>
+                                <li>Creating and extending the internal brands.</li>
+                                <li>Keeping up-to-date on trends in technology, mobile, and social media.</li>
+                                <li>Delivering the highest standard of quality work through the Scrum Workflow.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-5 mt-md-0 pt-5 pt-md-0">
+                        <div class="col-12 col-md-4 border-right-bl p-4 pt-5">
+                            <h3 class="fw-bolder">Digital Media Creator & Photographer</h3>
+                            <p>Freelance | 2017 - now</p>
+                        </div>
+                        <div class="col-12 col-md-8 p-4 pt-5">
+                            <h4 class="mb-4">Responsibilities</h4>
+                            <ul>
+                                <li>Maintaining a working knowledge of Lightroom, Photoshop, Premiere Pro, and other software for content creation.</li>
+                                <li>Maintaining and coordinating the social media postings for maximum engagement and internet presence.</li>
+                                <li>Managing, planning, and organizing all aspects of video and photo shoots from preproduction to postproduction such as:
+                                    <ul>
+                                    <li>Scouting and booking locations</li>
+                                    <li>Scouting models</li>
+                                    <li>Wardrobe styling</li>
+                                    <li>Script writing</li>
+                                    <li>Assessing lighting and audio to maximize quality</li>
+                                    <li>Directing and producing</li>
+                                    <li>Editing content using Adobe Premiere Pro, Premiere After Effects, Adobe Photoshop, Adobe Lightroom, and other</li>
+                                    <li>Music selection, sound mixing, color correction, color grading, etc.</li>
+                                    </ul>
+                                </li>
+                                <li>Using analytics tools to monitor performance of content.</li>
+                                <li>Designing layouts, creating styles for usable, engaging websites that meet product and business objectives and appeal to the users across different devices.</li>
+                                <li>Designing ads, flyers, posters, business cards using Krita software.</li>
+                                <li>Having working knowledge of all relevant social media platforms.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-5 mt-md-0 pt-5 pt-md-0">
+                        <div class="col-12 col-md-4 p-4 pt-5 border-right-bl">
+                            <h3 class="fw-bolder">Admin Assistant & Receptionist</h3>
+                            <p>Adult Primary Care | 2020 - 2022</p>
+                        </div>
+                        <div class="col-12 col-md-8 p-4 pt-5">
+                            <h4 class="mb-4">Responsibilities</h4>
+                            <ul>
+                                <li>Checking in and scheduling patients for appointments over the phone.</li>
+                                <li>Processing payments, collecting balances and copays.</li>
+                                <li>Solving billing and coding errors.</li>
+                                <li>Contacting patients and insurance companies to obtain information.</li>
+                                <li>Scheduling STAT appointments with other facilities.</li>
+                                <li>Answering all phone calls in a professional and courteous manner, returning all voicemails and emails.</li>
+                                <li>Staying knowledgeable about various prescription regulations.</li>
+                                <li>Contacting pharmacies with refill requests, denials, prescription transfers, and cancellations.</li>
+                                <li>Completing prior authorizations for prescriptions and procedures such as MRI's, CT's.</li>
+                                <li>Filing, faxing, uploading to patients' charts and obtaining documents, such as: medical records, medical record release forms, visit notes from other providers, labs, radiology reports.</li>
+                                <li>Maintaining patient accounts by obtaining, recording, and updating personal and financial information.</li>
+                                <li>Verifying insurance claims.</li>
+                                <li>Performing all duties within HIPAA and OSHA regulations.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <section class="education">
+        <div class="container ps-4 pe-4">
+            <h2>Education</h2>
+            <div class="border-top-bl mt-5 mb-5"></div>
+            <div>
+                <div class="mb-5">
+                    <h3>High School Diploma</h3>
+                    <p>Lockport Twp. High School | 2017</p>
+                </div>
+                <div>
+                    <h3>Web Development Boot Camp</h3>
+                    <p>The University of Texas at Austin | 2022</p>
+                </div>
+            </div>
+            <div class="border-top-bl mt-5 mb-5"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <h2>Contact Information</h2>
+                    <p>saidana.narm@gmail.com</p>
+                    <p>708-966-7954</p>
+                </div>
+                <div class="col-12 col-md-5 mt-5 pt-5 mt-md-0 pt-md-0">
+                    <h2>Scroll To</h2>
+                    <div class=""></div>
+                        <a href="#" class="me-2" style="color: white;">Top</a>
+                        <a href="#projects" class="me-2" style="color: white;">Projects</a>
+                        <a href="#work-experience" style="color: white;">Work Experience</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container p-4">
+            <p class="mb-0 text-center" id="copyright"></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/copyright.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="assets/js/transition.js"></script>
 </body>
 </html>

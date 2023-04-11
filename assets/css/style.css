@@ -9,10 +9,6 @@ p, a {
  overflow-wrap: break-word;
 }
 
-.container-inside {
-    margin: 0 220px 0 240px;
-}
-
 .glass {
     width: 100vw;
     height: 100vh;
@@ -154,3 +150,9 @@ footer {
     z-index: 10;
     pointer-events: none;
 } */
+
+@media screen and (min-width: 768px) {
+    .container-inside {
+        margin: 0 220px 0 240px;
+    }
+}

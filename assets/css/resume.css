@@ -1,10 +1,20 @@
+.title {
+    margin-bottom: 100px;
+}
+
 h1 {
     letter-spacing: 2px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
+
+.title a {
+    color: white;
+}
+
 
 .resume {
     border: solid 2px rgb(24, 28, 60);
+    position: relative;
 }
 
 .resume a {
@@ -28,8 +38,61 @@ h1 {
     border: 1px solid rgb(24, 28, 60);
 }
 
+.skills {
+    padding-top: 100px;
+}
+
+h3 {
+    font-size: 1rem
+}
+
+.projects {
+
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/stain.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.projects h2 {
+    font-size: 4rem;
+}
+
+.projects-list h3 {
+    font-weight: bolder;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.projects a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.work-experience {
+    margin-top: 200px;
+}
+
+.work-experience h2, .education h2 {
+    margin-top: 100px;
+    font-size: 4rem;
+}
+
+.work-experience h4 {
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 800px) {
     .resume {
         margin: 0 17vw;
+    }
+
+    .work-experience h2, .education h2, .projects h2 {
+        font-size: 8rem;
     }
 }
