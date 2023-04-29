@@ -12,21 +12,13 @@ h1 {
 }
 
 
-.resume {
+.resume, .project-border {
     border: solid 2px rgb(24, 28, 60);
     position: relative;
 }
 
 .resume a {
     color: rgb(255, 255, 255);
-}
-
-.border-top-bl {
-    border-top: solid 2px rgb(24, 28, 60);
-}
-
-.border-right-bl {
-    border-right: solid 2px rgb(24, 28, 60);
 }
 
 .request-demo {
@@ -95,4 +87,18 @@ h3 {
     .work-experience h2, .education h2, .projects h2 {
         font-size: 8rem;
     }
+
+    .project-border {
+        border: none;
+    }
+
+    .border-top-bl {
+        border-top: solid 2px rgb(24, 28, 60);
+    }
+    
+    .border-right-bl {
+        border-right: solid 2px rgb(24, 28, 60);
+    }
 }
+
+
