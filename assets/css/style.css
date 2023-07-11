@@ -9,22 +9,13 @@ p, a {
  overflow-wrap: break-word;
 }
 
+
 .glass {
     width: 100vw;
     height: 100vh;
     background: url("../images/stain.png");
     background-position: center;
     background-size: 100%;
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-.logo {
-    width: 200px;
-    height: 200px;
-    background: url("../images/stain.png");
-    background-position: center;
-    background-size: 190%;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -38,11 +29,6 @@ p, a {
 header p {
     font-size: 2rem;
     margin-bottom: 0;
-}
-
-.dark-border-no-top {
-    border: 1px solid rgb(255, 255, 255);
-    border-top: none;
 }
 
 body {
