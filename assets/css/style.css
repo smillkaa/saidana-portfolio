@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin&Libre+Baskerville:wght@700&family=Martel:wght@600;700&display=swap');
 @import url('https://use.typekit.net/hum6xbw.css');
 * {
-    color: white;
     font-family: "ivymode", sans-serif;
 }
 
@@ -29,11 +28,6 @@ p, a {
 header p {
     font-size: 2rem;
     margin-bottom: 0;
-}
-
-body {
-    background-image: url('../images/grain4.png');
-    background-size: contain;
 }
 
 .hero {
