@@ -1,0 +1,34 @@
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 6rem;
+}
+
+.title-intro {
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+.steps {
+    margin-top:150px;
+}
+
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .title-intro {
+        margin-top: 0;
+    }
+
+    .steps {
+        margin-top:50px;
+    }
+}

@@ -8,6 +8,13 @@ p, a {
  overflow-wrap: break-word;
 }
 
+.img-link-home {
+    transition: 0.3s;
+}
+
+.img-link-home:hover {
+    box-shadow: 0 0 20px rgb(176, 176, 176);
+}
 
 .glass {
     width: 100vw;
