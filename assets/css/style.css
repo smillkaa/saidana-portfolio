@@ -69,35 +69,27 @@ header p {
     color: white;
     border: 1px solid rgb(255, 255, 255);
 }
+.nav-link {
+    text-decoration:none;
+    position: relative;
+    color:rgb(44, 44, 44);
+    writing-mode: vertical-rl; /* vertical right-to-left */
+    text-orientation: upright; /* upright orientation */
 
-/* FORM */
-.dark-border {
-    border: solid 1px rgb(24, 28, 60);
+    transition: 0.3s;
 }
 
-.demo {
-    min-height: 100vh;
+.img-link {
+    transition: 0.3s;
 }
 
-form .request-demo {
-    border-radius: 0px;
-    min-width: 100%;
+.img-link:hover {
+    box-shadow: 0 0 20px rgb(195, 201, 209);
 }
 
-.dark-border-no-top {
-    border: solid 1px rgb(24, 28, 60);
-    border-top: none;
+.nav-link:hover {
+    color: rgb(160, 160, 160);
 }
-
-.dark-border-no-top p {
-    font-size: 1rem;
-}
-input[type=text], textarea[type=text], input[type=email] {
-    border: rgb(255, 255, 255) solid 1px;
-    background-color: rgba(0,0,0,0);
-    border-radius: 0;
-    min-width: 100%;
-} 
 
 /* FOOTER */
 footer {
