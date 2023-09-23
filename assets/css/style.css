@@ -14,14 +14,14 @@ body {
     background-repeat: no-repeat;
 }
 
-.hero p, h1, .hero h2 {
+.hero p, h1, .hero h2, footer a {
     margin-bottom: 0;
     font-weight: 400;
     font-size: 0.8rem;
     color: white;
 }
 
-.hero a {
+.hero a, footer a {
     text-decoration: none;
     color: white;
 }
@@ -31,26 +31,39 @@ body {
 }
 
 .horizontal-line {
-    border-top: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid white;
 }
 
 .project-gallery {
     background-color: rgb(245, 243, 239);
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .project-gallery p, li, .project-gallery a {
     max-width: max-content;
     font-size: 0.8rem;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 200;
 }
 
 .project-gallery h2 {
     font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: "condor", sans-serif;
+    font-weight: 400;
+    color: rgb(39, 39, 39);
+  
 }
 
 .project-gallery h3 {
     font-size: 0.8rem;
-    font-weight: 600;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: rgb(39, 39, 39);
+    
+   
 }
 
 .project-gallery .col-6 {
@@ -65,6 +78,12 @@ body {
 
 .specs p, .specs li {
     margin-bottom: 0;
+}
+
+.project-gallery a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 @media (max-aspect-ratio: 1/1) {
     .hero {
