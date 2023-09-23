@@ -2,12 +2,16 @@
     font-family: "din-2014", sans-serif;
 }
 
-.project-gallery p {
-    max-width: max-content;
-}
-
 body {
     background-color: black;
+}
+
+.hero {
+    height: 100vh;
+    background: url('../images/IMG_7387.png');
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .hero p, h1, .hero h2 {
@@ -34,8 +38,19 @@ body {
     background-color: rgb(245, 243, 239);
     color: black;
 }
+
+.project-gallery p, li, .project-gallery a {
+    max-width: max-content;
+    font-size: 0.8rem;
+}
+
 .project-gallery h2 {
-    font-family: 'ivymode';
+    font-size: 1rem;
+}
+
+.project-gallery h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .project-gallery .col-6 {
@@ -47,12 +62,26 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.specs p, .specs li {
+    margin-bottom: 0;
+}
 @media (max-aspect-ratio: 1/1) {
     .hero {
-        height: 100vh;
         background: url('../images/IMG_7387.png');
         background-position: top right 40%;
         background-size: 180%;
         background-repeat: no-repeat;
     }
 }
+
+@media (min-aspect-ratio: 1/1) {
+    .project-gallery p, li, .project-gallery a, .project-gallery h3 {
+        font-size: 1rem;
+    }
+}
+
+/* 
+font-family: quiverleaf-cf, sans-serif;
+font-weight: 400;
+font-style: normal; */
