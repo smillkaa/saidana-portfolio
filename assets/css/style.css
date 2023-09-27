@@ -96,6 +96,18 @@ p, a, li {
     text-decoration: none;
     border-bottom: 1px solid black;
 }
+
+.contact-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-element a {
+    text-align: right;
+    font-weight: 200;
+    max-width: max-content;
+}
+
 @media (max-aspect-ratio: 1/1) {
     .hero {
         background: url('../images/IMG_7387.png');
