@@ -9,20 +9,16 @@
     visibility: hidden;
 }
 
+.hero {
+    height: 100vh;
+}
+
 .nav {
     font-size: 0.7rem;
 }
 
 p, a, li {
     font-size: 0.8rem
-}
-
-.hero {
-    height: 100vh;
-    background: url('../images/IMG_7387.png');
-    background-position: top center;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .hero p, h1, .hero h2, footer a {
@@ -118,8 +114,23 @@ p, a, li {
 }
 
 @media (min-aspect-ratio: 1/1) {
-    .project-gallery p, li, .project-gallery a, .project-gallery h3 {
+    .project-gallery p, .content li, .content a, .project-gallery li, .content p, .project-gallery a, .project-gallery h3 {
         font-size: 1rem;
+    }
+    .content {
+        margin: 0 18vw;
+    }
+    .contact-hero .container {
+       margin: 0 0 0 0;
+    }
+    .hero {
+
+        background: url('../images/IMG_7387t.png');
+        background-size: 120%;
+        background-position: right bottom 20%;
+    }
+    .content-home .row {
+        margin: 0 10vw;
     }
 }
 
