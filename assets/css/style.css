@@ -104,6 +104,10 @@ p, a, li {
     max-width: max-content;
 }
 
+a:active, a:hover {
+    color: grey;
+}
+
 @media (max-aspect-ratio: 1/1) {
     .hero {
         background: url('../images/IMG_7387.png');
